@@ -1,0 +1,1159 @@
+
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>GoReleaser</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="GoReleaser">
+		<meta name="description" content="Deliver Go binaries as fast and easily as possible">
+		<meta http-equiv="content-language" content="en-us" />
+		<meta name="generator" content="Hugo 0.63.2" />
+		<link rel="icon" href="favicon.ico">
+		<meta name="theme-color" content="#000">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="theme-color" content="black">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@goreleaser">
+		<meta name="twitter:creator" content="@goreleaser">
+		<meta name="twitter:title" content="GoReleaser">
+		<meta name="twitter:description" content="Deliver Go binaries as fast and easily as possible">
+		<meta name="twitter:image" content="https://goreleaser.com/card.png">
+		<meta name="og:title" content="GoReleaser">
+		<meta name="og:description" content="Deliver Go binaries as fast and easily as possible">
+		<meta name="og:url" content="https://goreleaser.com/">
+		<meta name="og:image" content="https://goreleaser.com/card.png">
+		<meta property="og:type" content="website" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<link rel="stylesheet" href="https://goreleaser.com/css/index.css">
+		<link rel="apple-touch-icon" href="https://goreleaser.com/apple-touch-icon.png">
+		<link rel="shortcut icon" href="https://goreleaser.com/favicon.ico" type="image/x-icon">
+	</head>
+
+	<body>
+		<div class="Wrapper">
+			<div class="Container">
+				<div class="Header">
+  <a href="https://goreleaser.com/">
+	<div class="Title center">
+		
+			<img alt="GoReleaser Logo" src="https://github.com/goreleaser.png" height="140" />
+		
+		<span class="text">GoReleaser</span>
+		<span class="subtext"></span>
+	</div>
+  </a>
+</div>
+
+				<div class="Content-wrapper">
+					<div class="Sidebar">
+	<div class="Menu">
+		<div class="item">
+			<a href="https://goreleaser.com/">Home</a>
+		</div>
+		
+			
+				<div class="item">
+					<a href="https://goreleaser.com/introduction/">Introduction</a>
+				</div>
+			
+		
+			
+				<div class="item">
+					<a href="https://goreleaser.com/install/">Install</a>
+				</div>
+			
+		
+			
+		
+			
+				<div class="item">
+					<a href="https://goreleaser.com/quick-start/">Quick Start</a>
+				</div>
+			
+		
+			
+				<div class="item">
+					<a href="https://goreleaser.com/semver/">Semantic Versioning</a>
+				</div>
+			
+		
+			
+				<div class="item">
+					<a href="https://goreleaser.com/cgo/">CGO</a>
+				</div>
+			
+		
+			
+		
+			
+				<div class="item">
+					<a href="https://goreleaser.com/environment/">Environment</a>
+				</div>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				<div class="item">
+					<a href="https://goreleaser.com/customization/">Customization</a>
+				</div>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				<div class="item">
+					<a href="https://goreleaser.com/ci/">Continuous Integration</a>
+				</div>
+			
+		
+			
+		
+			
+				<div class="item">
+					<a href="https://goreleaser.com/actions/">GitHub Actions</a>
+				</div>
+			
+		
+			
+				<div class="item">
+					<a href="https://goreleaser.com/deprecations/">Deprecation notices</a>
+				</div>
+			
+		
+			
+				<div class="item">
+					<a href="https://goreleaser.com/sponsors/">Sponsors</a>
+				</div>
+			
+		
+			
+				<div class="item">
+					<a href="https://goreleaser.com/contributing/">Contributing</a>
+				</div>
+			
+		
+			
+				<div class="item">
+					<a href="https://goreleaser.com/tutorials/">Tutorials and posts</a>
+				</div>
+			
+		
+			
+				<div class="item">
+					<a href="https://goreleaser.com/links/">Links</a>
+				</div>
+			
+		
+			
+		
+			
+		
+			
+		
+	</div>
+</div>
+
+					<div class="Content">
+						
+	
+	
+		
+			<div class="Page" id="Introduction">
+				<h1><a href="https://goreleaser.com/introduction/">Introduction</a></h1>
+				<p><a href="https://github.com/goreleaser/goreleaser">GoReleaser</a> is a release automation
+tool for Go projects. The goal is to simplify the build, release and
+publish steps while providing variant customization options for all steps.</p>
+<p>GoReleaser is built for CI tools; you only need to
+<a href="/ci">download and execute it</a> in your build script.
+Of course, you can also <a href="/install">install it locally</a> if you wish.</p>
+<p>You can also <a href="/customization">customize</a> your release process through a
+<code>.goreleaser.yml</code> file.</p>
+<p><!-- raw HTML omitted -->Several<!-- raw HTML omitted -->
+GitHub projects trust their release process to GoReleaser.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+
+			</div>
+		
+	
+		
+			<div class="Page" id="Install">
+				<h1><a href="https://goreleaser.com/install/">Install</a></h1>
+				<p>You can install the pre-compiled binary (in several different ways),
+use Docker or compile from source.</p>
+<p>Here are the steps for each of them:</p>
+<h2 id="install-the-pre-compiled-binary">Install the pre-compiled binary</h2>
+<p><strong>homebrew tap</strong> (only on macOS for now):</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ brew install goreleaser/tap/goreleaser
+</code></pre></div><p><strong>homebrew</strong> (may not be the latest version):</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ brew install goreleaser
+</code></pre></div><p><strong>snapcraft</strong>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ sudo snap install --classic goreleaser
+</code></pre></div><p><strong>scoop</strong>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ scoop bucket add goreleaser https://github.com/goreleaser/scoop-bucket.git
+$ scoop install goreleaser
+</code></pre></div><p><strong>deb/rpm</strong>:</p>
+<p>Download the <code>.deb</code> or <code>.rpm</code> from the <a href="https://github.com/goreleaser/goreleaser/releases">releases page</a> and
+install with <code>dpkg -i</code> and <code>rpm -i</code> respectively.</p>
+<p><strong>Shell script</strong>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ curl -sfL https://install.goreleaser.com/github.com/goreleaser/goreleaser.sh | sh
+</code></pre></div><p><strong>manually</strong>:</p>
+<p>Download the pre-compiled binaries from the <a href="https://github.com/goreleaser/goreleaser/releases">releases page</a> and
+copy to the desired location.</p>
+<h2 id="running-with-docker">Running with Docker</h2>
+<p>You can also use it within a Docker container. To do that, you&rsquo;ll need to
+execute something more-or-less like the following:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ docker run --rm --privileged <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>  -v <span style="color:#8be9fd;font-style:italic">$PWD</span>:/go/src/github.com/user/repo <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>  -v /var/run/docker.sock:/var/run/docker.sock <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>  -w /go/src/github.com/user/repo <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>  -e GITHUB_TOKEN <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>  -e DOCKER_USERNAME <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>  -e DOCKER_PASSWORD <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>  -e DOCKER_REGISTRY <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>  goreleaser/goreleaser release
+</code></pre></div><blockquote>
+<p><strong>ATTENTION</strong>: Currently, the provided docker image does not support
+the generation of snapcraft packages.</p>
+</blockquote>
+<p>Note that the image will almost always have the last stable Go version.</p>
+<p>The <code>DOCKER_REGISTRY</code> environment variable can be left empty when you are
+releasing to the public docker registry.</p>
+<p>If you need more things, you are encouraged to keep your own image. You can
+always use GoReleaser&rsquo;s <a href="https://github.com/goreleaser/goreleaser/blob/master/Dockerfile">own Dockerfile</a> as an example though
+and iterate from that.</p>
+<h2 id="compiling-from-source">Compiling from source</h2>
+<p>Here you have two options:</p>
+<ol>
+<li>If you want to contribute to the project, please follow the
+steps on our <a href="/contributing">contributing guide</a>.</li>
+<li>If just want to build from source for whatever reason, follow the steps
+bellow:</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#6272a4"># clone it outside GOPATH</span>
+git clone https://github.com/goreleaser/goreleaser
+<span style="color:#8be9fd;font-style:italic">cd</span> goreleaser
+
+<span style="color:#6272a4"># get dependencies using go modules (needs go 1.11+)</span>
+go get ./...
+
+<span style="color:#6272a4"># build</span>
+go build -o goreleaser .
+
+<span style="color:#6272a4"># check it works</span>
+./goreleaser --version
+</code></pre></div>
+			</div>
+		
+	
+		
+	
+		
+			<div class="Page" id="Quick Start">
+				<h1><a href="https://goreleaser.com/quick-start/">Quick Start</a></h1>
+				<p>In this example we will build, archive and release a sample Go project.</p>
+<p>Create a GitHub repository and add a single main package:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#6272a4">// main.go
+</span><span style="color:#6272a4"></span><span style="color:#ff79c6">package</span> main
+
+<span style="color:#8be9fd;font-style:italic">func</span> <span style="color:#50fa7b">main</span>() {
+  <span style="color:#8be9fd;font-style:italic">println</span>(<span style="color:#f1fa8c">&#34;Ba dum, tss!&#34;</span>)
+}
+</code></pre></div><p>Run <code>goreleaser init</code> to create an example <code>.goreleaser.yaml</code> file:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ goreleaser init
+
+   • Generating .goreleaser.yml file
+   • config created; please edit accordingly to your needs <span style="color:#8be9fd;font-style:italic">file</span><span style="color:#ff79c6">=</span>.goreleaser.yml
+</code></pre></div><p>You can <a href="/customization">customize</a> the generated <code>.goreleaser.yml</code> or leave
+it as-is, it&rsquo;s up to you.</p>
+<p>You can test the configuration at any time by running GoReleaser with a few
+extra parameters to not require a version tag, skip publishing to GitHub,
+and remove any already-built files:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ goreleaser --snapshot --skip-publish --rm-dist
+</code></pre></div><p>If you are not using vgo or Go modules, then you will need to comment out the
+before hooks in the generated config file or update them to match your setup
+accordingly.</p>
+<p>GoReleaser will build the binaries for your app for Windows, Linux and macOS,
+both amd64 and i386 architectures. You can customize that by changing the
+<code>builds</code> section. Check the <a href="/build">documentation</a> for more information.</p>
+<p>After building the binaries, GoReleaser will create an archive for each OS/Arch
+pair into a separate file. You can customize several things by changing
+the <code>archive</code> section, including releasing only the binaries and not creating
+archives at all. Check the <a href="/archive">documentation</a> for more information.</p>
+<p>You&rsquo;ll need to export either a <code>GITHUB_TOKEN</code> <strong>or</strong> <code>GITLAB_TOKEN</code> environment variable, which should
+contain a valid GitHub token with the <code>repo</code> scope or GitLab token with <code>api</code> scope.
+It will be used to deploy releases to your GitHub/GitLab repository.
+You can create a token <a href="https://github.com/settings/tokens/new">here</a> for GitHub or <a href="https://gitlab.com/profile/personal_access_tokens">here</a> for GitLab.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ <span style="color:#8be9fd;font-style:italic">export</span> <span style="color:#8be9fd;font-style:italic">GITHUB_TOKEN</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;YOUR_GH_TOKEN&#34;</span>
+<span style="color:#6272a4"># or</span>
+$ <span style="color:#8be9fd;font-style:italic">export</span> <span style="color:#8be9fd;font-style:italic">GITLAB_TOKEN</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;YOUR_GL_TOKEN&#34;</span>
+</code></pre></div><p>GoReleaser will use the latest
+<a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging">Git tag</a> of your repository.
+Create a tag and push it to GitHub:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git tag -a v0.1.0 -m <span style="color:#f1fa8c">&#34;First release&#34;</span>
+$ git push origin v0.1.0
+</code></pre></div><blockquote>
+<p><strong>Attention</strong>: Check if your tag adheres to <a href="/semver">semantic versioning</a>.</p>
+</blockquote>
+<p>If you don&rsquo;t want to create a tag yet, you can also run GoReleaser without publishing
+based on the latest commit by using the <code>--snapshot</code> flag:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ goreleaser --snapshot
+</code></pre></div><p>Now you can run GoReleaser at the root of your repository:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ goreleaser
+</code></pre></div><p>That&rsquo;s all! Check your GitHub project&rsquo;s release page.
+The release should look like this:</p>
+<!-- raw HTML omitted -->
+<p>Or check your GitLab project&rsquo;s release page.
+The release should also look like this:
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted --></p>
+<p><strong>Note:</strong> Releasing to a private-hosted GitLab CE will only work for version <code>v11.7+</code>, because the release feature
+was introduced in this <a href="https://docs.gitlab.com/ee/user/project/releases/index.html">version</a>.</p>
+<h2 id="dry-run">Dry run</h2>
+<p>If you want to test everything before doing a release &ldquo;for real&rdquo;, you can
+use the <code>--skip-publish</code> flag, which will only build and package things:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ goreleaser release --skip-publish
+</code></pre></div><p>You can check the other options by running:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ goreleaser --help
+</code></pre></div><p>and</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ goreleaser release --help
+</code></pre></div>
+			</div>
+		
+	
+		
+			<div class="Page" id="Semantic Versioning">
+				<h1><a href="https://goreleaser.com/semver/">Semantic Versioning</a></h1>
+				<p>GoReleaser enforces semantic versioning and will error on non compliant tags.</p>
+<p>Your tag <strong>should</strong> be a valid <a href="http://semver.org/">semantic version</a>.
+If it is not, GoReleaser will error.</p>
+<p>The <code>v</code> prefix is not mandatory. You can check the <a href="/templates">templating</a>
+documentation to see how to use the tag or each part of the semantic version
+in name templates.</p>
+
+			</div>
+		
+	
+		
+			<div class="Page" id="CGO">
+				<h1><a href="https://goreleaser.com/cgo/">CGO</a></h1>
+				<p>Unfortunately, GoReleaser does not support CGO.</p>
+<p>You can see the discussion about this in
+<a href="https://github.com/goreleaser/goreleaser/issues/708">this issue</a>.</p>
+<p>You can see the comments on the issue referenced for workarounds on it.</p>
+
+			</div>
+		
+	
+		
+	
+		
+			<div class="Page" id="Environment">
+				<h1><a href="https://goreleaser.com/environment/">Environment</a></h1>
+				<h2 id="api-tokens">API Tokens</h2>
+<p>GoReleaser requires either a GitHub API token with the <code>repo</code> scope selected to
+deploy the artifacts to GitHub <strong>or</strong> a GitLab API token with <code>api</code> scope <strong>or</strong> a Gitea API token.
+You can create one <a href="https://github.com/settings/tokens/new">here</a> for GitHub
+or <a href="https://gitlab.com/profile/personal_access_tokens">here</a> for GitLab
+or in <code>Settings | Applications | Generate New Token</code> page of your Gitea instance.</p>
+<p>This token should be added to the environment variables as <code>GITHUB_TOKEN</code> or <code>GITLAB_TOKEN</code> or <code>GITEA_TOKEN</code> respecively.
+Here is how to do it with Travis CI:
+<a href="https://docs.travis-ci.com/user/environment-variables/#Defining-Variables-in-Repository-Settings">Defining Variables in Repository Settings</a>.</p>
+<p>Alternatively, you can provide the GitHub/GitLab token in a file.
+GoReleaser will check <code>~/.config/goreleaser/github_token</code>, <code>~/.config/goreleaser/gitlab_token</code>
+and <code>~/.config/goreleaser/gitea_token</code> by default, you can change that in
+the <code>.goreleaser.yml</code> file:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#6272a4"># .goreleaser.yml</span>
+<span style="color:#ff79c6">env_files</span>:
+  <span style="color:#6272a4"># use only one or release will fail!</span>
+  <span style="color:#ff79c6">github_token</span>: ~/.path/to/my/gh_token
+  <span style="color:#ff79c6">gitlab_token</span>: ~/.path/to/my/gl_token
+  <span style="color:#ff79c6">gitea_token</span>: ~/.path/to/my/gitea_token
+</code></pre></div><p><strong>IMPORTANT</strong>: you can define multiple env files, but the release process will fail
+because multiple tokens are defined. Use only one.</p>
+<h2 id="github-enterprise">GitHub Enterprise</h2>
+<p>You can use GoReleaser with GitHub Enterprise by providing its URLs in
+the <code>.goreleaser.yml</code> configuration file:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#6272a4"># .goreleaser.yml</span>
+<span style="color:#ff79c6">github_urls</span>:
+  <span style="color:#ff79c6">api</span>: https://git.company.com/api/v3/
+  <span style="color:#ff79c6">upload</span>: https://git.company.com/api/uploads/
+  <span style="color:#ff79c6">download</span>: https://git.company.com/
+  <span style="color:#6272a4"># set to true if you use a self-signed certificate</span>
+  <span style="color:#ff79c6">skip_tls_verify</span>: <span style="color:#ff79c6">false</span>
+</code></pre></div><p>If none are set, they default to GitHub&rsquo;s public URLs.</p>
+<h2 id="gitlab-enterprise-or-private-hosted">GitLab Enterprise or private hosted</h2>
+<p>You can use GoReleaser with GitLab Enterprise by providing its URLs in
+the <code>.goreleaser.yml</code> configuration file:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#6272a4"># .goreleaser.yml</span>
+<span style="color:#ff79c6">gitlab_urls</span>:
+  <span style="color:#ff79c6">api</span>: https://gitlab.mycompany.com/api/v4/
+  <span style="color:#ff79c6">download</span>: https://gitlab.company.com
+  <span style="color:#6272a4"># set to true if you use a self-signed certificate</span>
+  <span style="color:#ff79c6">skip_tls_verify</span>: <span style="color:#ff79c6">false</span>
+</code></pre></div><p>If none are set, they default to GitLab&rsquo;s public URLs.</p>
+<h2 id="gitea">Gitea</h2>
+<p>You can use GoReleaser with Gitea by providing its URLs in
+the <code>.goreleaser.yml</code> configuration file:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#6272a4"># .goreleaser.yml</span>
+<span style="color:#ff79c6">gitea_urls</span>:
+  <span style="color:#ff79c6">api</span>: https://gitea.myinstance.com/api/v1/
+  <span style="color:#6272a4"># set to true if you use a self-signed certificate</span>
+  <span style="color:#ff79c6">skip_tls_verify</span>: <span style="color:#ff79c6">false</span>
+</code></pre></div><h2 id="the-dist-folder">The dist folder</h2>
+<p>By default, GoReleaser will create its artifacts in the <code>./dist</code> folder.
+If you must, you can change it by setting it in the <code>.goreleaser.yml</code> file:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#6272a4"># .goreleaser.yml</span>
+<span style="color:#ff79c6">dist</span>: another-folder-that-is-not-dist
+</code></pre></div><h2 id="using-the-mainversion">Using the <code>main.version</code></h2>
+<p>Default wise GoReleaser sets three <em>ldflags</em>:</p>
+<ul>
+<li><code>main.version</code>: Current Git tag (the <code>v</code> prefix is stripped) or the name of
+the snapshot, if you&rsquo;re using the <code>--snapshot</code> flag</li>
+<li><code>main.commit</code>: Current git commit SHA</li>
+<li><code>main.date</code>: Date according <a href="https://golang.org/pkg/time/#pkg-constants">RFC3339</a></li>
+</ul>
+<p>You can use it in your <code>main.go</code> file:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#ff79c6">package</span> main
+
+<span style="color:#ff79c6">import</span> <span style="color:#f1fa8c">&#34;fmt&#34;</span>
+
+<span style="color:#8be9fd;font-style:italic">var</span> (
+	version = <span style="color:#f1fa8c">&#34;dev&#34;</span>
+	commit  = <span style="color:#f1fa8c">&#34;none&#34;</span>
+	date    = <span style="color:#f1fa8c">&#34;unknown&#34;</span>
+    builtBy = <span style="color:#f1fa8c">&#34;unknown&#34;</span>
+)
+
+<span style="color:#8be9fd;font-style:italic">func</span> <span style="color:#50fa7b">main</span>() {
+  fmt.<span style="color:#50fa7b">Printf</span>(<span style="color:#f1fa8c">&#34;my app %s, commit %s, built at %s by %s&#34;</span>, version, commit, date, builtBy)
+}
+</code></pre></div><p>You can override this by changing the <code>ldflags</code> option in the <code>build</code> section.</p>
+<h2 id="overriding-git-tags">Overriding Git Tags</h2>
+<p>You can force the <a href="/build#define-build-tag">build tag</a> and <a href="/release#define-previous-tag">previous changelog tag</a> using environment variables. This is useful in cases where one git commit is referenced by multiple git tags.</p>
+
+			</div>
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<div class="Page" id="Customization">
+				<h1><a href="https://goreleaser.com/customization/">Customization</a></h1>
+				<p>GoReleaser provides multiple customizations via the <code>.goreleaser.yml</code> file.</p>
+<p>You can generate it by running <code>goreleaser init</code> or start from scratch.
+The defaults are sensible and fit for most projects.</p>
+
+			</div>
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<div class="Page" id="Continuous Integration">
+				<h1><a href="https://goreleaser.com/ci/">Continuous Integration</a></h1>
+				<p>GoReleaser was built from the very first commit with the idea of
+running it as part of the CI pipeline in mind.</p>
+<p>Let&rsquo;s see how we can get it working on popular CI software.</p>
+<h2 id="travis-ci">Travis CI</h2>
+<p>You may want to setup your project to auto-deploy your new tags on
+<a href="https://travis-ci.org">Travis</a>, for example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#6272a4"># .travis.yml</span>
+<span style="color:#ff79c6">language</span>: go
+
+<span style="color:#6272a4"># needed only if you use the snap pipe:</span>
+<span style="color:#ff79c6">addons</span>:
+  <span style="color:#ff79c6">apt</span>:
+    <span style="color:#ff79c6">packages</span>:
+    - snapcraft
+
+<span style="color:#6272a4"># needed only if you use the docker pipe</span>
+<span style="color:#ff79c6">services</span>:
+- docker
+
+<span style="color:#ff79c6">script</span>:
+  - go test ./... <span style="color:#6272a4"># replace this with your test script</span>
+  - curl -sfL https://git.io/goreleaser | sh -s -- check <span style="color:#6272a4"># check goreleaser config for deprecations</span>
+
+<span style="color:#ff79c6">after_success</span>:
+<span style="color:#6272a4"># docker login is required if you want to push docker images.</span>
+<span style="color:#6272a4"># DOCKER_PASSWORD should be a secret in your .travis.yml configuration.</span>
+- test -n <span style="color:#f1fa8c">&#34;$TRAVIS_TAG&#34;</span> <span style="color:#ff79c6">&amp;&amp;</span> docker login -u=myuser -p=<span style="color:#f1fa8c">&#34;$DOCKER_PASSWORD&#34;</span>
+<span style="color:#6272a4"># snapcraft login is required if you want to push snapcraft packages to the</span>
+<span style="color:#6272a4"># store.</span>
+<span style="color:#6272a4"># You&#39;ll need to run `snapcraft export-login snap.login` and</span>
+<span style="color:#6272a4"># `travis encrypt-file snap.login --add` to add the key to the travis</span>
+<span style="color:#6272a4"># environment.</span>
+- test -n <span style="color:#f1fa8c">&#34;$TRAVIS_TAG&#34;</span> <span style="color:#ff79c6">&amp;&amp;</span> snapcraft login --with snap.login
+
+<span style="color:#6272a4"># calls goreleaser</span>
+<span style="color:#ff79c6">deploy</span>:
+- <span style="color:#ff79c6">provider</span>: script
+  <span style="color:#ff79c6">skip_cleanup</span>: <span style="color:#ff79c6">true</span>
+  <span style="color:#ff79c6">script</span>: curl -sL https://git.io/goreleaser | bash
+  <span style="color:#ff79c6">on</span>:
+    <span style="color:#ff79c6">tags</span>: <span style="color:#ff79c6">true</span>
+    <span style="color:#ff79c6">condition</span>: $TRAVIS_OS_NAME = linux
+</code></pre></div><p>Note the last line (<code>condition: $TRAVIS_OS_NAME = linux</code>): it is important
+if you run a build matrix with multiple Go versions and/or multiple OSes. If
+that&rsquo;s the case you will want to make sure GoReleaser is run just once.</p>
+<h2 id="circleci">CircleCI</h2>
+<p>Here is how to do it with <a href="https://circleci.com">CircleCI</a>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#6272a4"># .circleci/config.yml</span>
+<span style="color:#ff79c6">version</span>: <span style="color:#bd93f9">2.1</span>
+<span style="color:#ff79c6">workflows</span>:
+  <span style="color:#ff79c6">main</span>:
+    <span style="color:#ff79c6">jobs</span>:
+      - <span style="color:#ff79c6">release</span>:
+          <span style="color:#6272a4"># Only run this job on git tag pushes</span>
+          <span style="color:#ff79c6">filters</span>:
+            <span style="color:#ff79c6">branches</span>:
+              <span style="color:#ff79c6">ignore</span>: /.<span style="color:#ff79c6">*/</span>
+            <span style="color:#ff79c6">tags</span>:
+              <span style="color:#ff79c6">only</span>: /v[<span style="color:#bd93f9">0</span><span style="color:#bd93f9">-9</span>]+(\.[<span style="color:#bd93f9">0</span><span style="color:#bd93f9">-9</span>]+)<span style="color:#ff79c6">*(-.*)*/</span>
+<span style="color:#ff79c6">jobs</span>:
+  <span style="color:#ff79c6">release</span>:
+    <span style="color:#ff79c6">docker</span>:
+      - <span style="color:#ff79c6">image</span>: circleci/golang:<span style="color:#bd93f9">1.14</span>
+    <span style="color:#ff79c6">steps</span>:
+      - checkout
+      - <span style="color:#ff79c6">run</span>: curl -sL https://git.io/goreleaser | bash
+</code></pre></div><h2 id="drone">Drone</h2>
+<p>By default, drone does not fetch tags. <code>plugins/git</code> is used with default values,
+in most cases we&rsquo;ll need overwrite the <code>clone</code> step enabling tags in order to make
+<code>goreleaser</code> work correctly.</p>
+<p>In this example we&rsquo;re creating a new release every time a new tag is pushed.
+Note that you&rsquo;ll need to enable <code>tags</code> in repo settings and add <code>github_token</code>
+secret.</p>
+<h4 id="1x">1.x</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#6272a4"># .drone.yml</span>
+
+<span style="color:#ff79c6">kind</span>: pipeline
+<span style="color:#ff79c6">name</span>: default
+
+<span style="color:#ff79c6">steps</span>:
+  - <span style="color:#ff79c6">name</span>: fetch
+    <span style="color:#ff79c6">image</span>: docker:git
+    <span style="color:#ff79c6">commands</span>:
+      - git fetch --tags
+
+  - <span style="color:#ff79c6">name</span>: test
+    <span style="color:#ff79c6">image</span>: golang
+    <span style="color:#ff79c6">volumes</span>:
+      - <span style="color:#ff79c6">name</span>: deps
+        <span style="color:#ff79c6">path</span>: /go
+    <span style="color:#ff79c6">commands</span>:
+      - go test -race -v ./... -cover
+
+  - <span style="color:#ff79c6">name</span>: release
+    <span style="color:#ff79c6">image</span>: golang
+    <span style="color:#ff79c6">environment</span>:
+      <span style="color:#ff79c6">GITHUB_TOKEN</span>:
+        <span style="color:#ff79c6">from_secret</span>: github_token
+    <span style="color:#ff79c6">volumes</span>:
+      - <span style="color:#ff79c6">name</span>: deps
+        <span style="color:#ff79c6">path</span>: /go
+    <span style="color:#ff79c6">commands</span>:
+      - curl -sL https://git.io/goreleaser | bash
+    <span style="color:#ff79c6">when</span>:
+      <span style="color:#ff79c6">event</span>: tag
+
+<span style="color:#ff79c6">volumes</span>:
+  - <span style="color:#ff79c6">name</span>: deps
+    <span style="color:#ff79c6">temp</span>: {}
+</code></pre></div><h4 id="08">0.8</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#ff79c6">pipeline</span>:
+  <span style="color:#ff79c6">clone</span>:
+    <span style="color:#ff79c6">image</span>: plugins/git
+    <span style="color:#ff79c6">tags</span>: <span style="color:#ff79c6">true</span>
+
+  <span style="color:#ff79c6">test</span>:
+    <span style="color:#ff79c6">image</span>: golang:<span style="color:#bd93f9">1.10</span>
+    <span style="color:#ff79c6">commands</span>:
+      - go test ./... -race
+
+  <span style="color:#ff79c6">release</span>:
+    <span style="color:#ff79c6">image</span>: golang:<span style="color:#bd93f9">1.10</span>
+    <span style="color:#ff79c6">secrets</span>: [github_token]
+    <span style="color:#ff79c6">commands</span>:
+      curl -sL https://git.io/goreleaser | bash
+    <span style="color:#ff79c6">when</span>:
+      <span style="color:#ff79c6">event</span>: tag
+</code></pre></div><h2 id="google-cloudbuild">Google CloudBuild</h2>
+<p>CloudBuild works off a different clone than your GitHub repo: it seems that
+your changes are pulled to a repo like
+<code>source.developers.google.com/p/YourProjectId/r/github-YourGithubUser-YourGithubRepo</code>,
+and that&rsquo;s what you&rsquo;re building off.</p>
+<p>This repo has the wrong name, so to prevent GoReleaser from publishing to
+the wrong GitHub repo, add to your <code>.goreleaser.yml</code> file&rsquo;s release section:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#ff79c6">release</span>:
+  <span style="color:#ff79c6">github</span>:
+    <span style="color:#ff79c6">owner</span>: YourGithubUser
+    <span style="color:#ff79c6">name</span>: YourGithubRepo
+</code></pre></div><p>Create two build triggers:</p>
+<ul>
+<li>a &ldquo;push to any branch&rdquo; trigger for your regular CI (doesn&rsquo;t invoke GoReleaser)</li>
+<li>a &ldquo;push to tag&rdquo; trigger which invokes GoReleaser</li>
+</ul>
+<p>The push to any branch trigger could use a <code>Dockerfile</code> or a <code>cloudbuild.yaml</code>,
+whichever you prefer.</p>
+<p>You should have a dedicated <code>cloudbuild.release.yaml</code> that is only used by the
+&ldquo;push to tag&rdquo; trigger.</p>
+<p>In this example we&rsquo;re creating a new release every time a new tag is pushed.
+See <a href="https://cloud.google.com/cloud-build/docs/securing-builds/use-encrypted-secrets-credentials">Using Encrypted Resources</a>
+for how to encrypt and base64-encode your github token.</p>
+<p>The clone that the build uses
+<a href="https://issuetracker.google.com/u/1/issues/113668706">has no tags</a>,
+which is why we must explicitly run <code>git tag $TAG_NAME</code> (note that <code>$TAG_NAME</code>
+is only set when your build is triggered by a &ldquo;push to tag&rdquo;.)
+This will allow GoReleaser to create a release with that version,
+but it won&rsquo;t be able to build a proper
+changelog containing just the messages from the commits since the prior tag.
+Note that the build performs a shallow clone of git repositories and will
+only contain tags that reference the latest commit.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#ff79c6">steps</span>:
+<span style="color:#6272a4"># Setup the workspace so we have a viable place to point GOPATH at.</span>
+- <span style="color:#ff79c6">name</span>: gcr.io/cloud-builders/go
+  <span style="color:#ff79c6">env</span>: [<span style="color:#f1fa8c">&#39;PROJECT_ROOT=github.com/YourGithubUser/YourGithubRepo&#39;</span>]
+  <span style="color:#ff79c6">args</span>: [<span style="color:#f1fa8c">&#39;env&#39;</span>]
+
+<span style="color:#6272a4"># Create github release.</span>
+- <span style="color:#ff79c6">name</span>: goreleaser/goreleaser
+  <span style="color:#ff79c6">entrypoint</span>: /bin/sh
+  <span style="color:#ff79c6">dir</span>: gopath/src/github.com
+  <span style="color:#ff79c6">env</span>: [<span style="color:#f1fa8c">&#39;GOPATH=/workspace/gopath&#39;</span>]
+  <span style="color:#ff79c6">args</span>: [<span style="color:#f1fa8c">&#39;-c&#39;</span>, <span style="color:#f1fa8c">&#39;cd YourGithubUser/YourGithubRepo &amp;&amp; git tag $TAG_NAME &amp;&amp; /goreleaser&#39;</span> ]
+  <span style="color:#ff79c6">secretEnv</span>: [<span style="color:#f1fa8c">&#39;GITHUB_TOKEN&#39;</span>]
+
+  <span style="color:#ff79c6">secrets</span>:
+  - <span style="color:#ff79c6">kmsKeyName</span>: projects/YourProjectId/locations/global/keyRings/YourKeyRing/cryptoKeys/YourKey
+    <span style="color:#ff79c6">secretEnv</span>:
+      <span style="color:#ff79c6">GITHUB_TOKEN</span>: <span style="color:#f1fa8c">|
+</span><span style="color:#f1fa8c">       </span><span style="color:#f1fa8c"> </span><span style="color:#f1fa8c">ICAgICAgICBDaVFBZUhVdUVoRUtBdmZJSGxVWnJDZ0hOU2NtMG1ES0k4WjF3L04zT3pEazhRbDZr</span>
+        QVVTVVFEM3dVYXU3cVJjK0g3T25UVW82YjJaCiAgICAgICAgREtBMWVNS0hOZzcyOUtmSGoyWk1x
+        ICAgICAgIEgwYndIaGUxR1E9PQo=
+
+</code></pre></div><h2 id="semaphore">Semaphore</h2>
+<p>In <a href="https://semaphoreci.com">Sempahore 2.0</a> each project starts with the
+default pipeline specified in <code>.semaphore/semaphore.yml</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#6272a4"># .semaphore/semaphore.yml.</span>
+<span style="color:#ff79c6">version</span>: v1<span style="color:#bd93f9">.0</span>
+<span style="color:#ff79c6">name</span>: Build
+<span style="color:#ff79c6">agent</span>:
+  <span style="color:#ff79c6">machine</span>:
+    <span style="color:#ff79c6">type</span>: e1-standard<span style="color:#bd93f9">-2</span>
+    <span style="color:#ff79c6">os_image</span>: ubuntu1804
+
+<span style="color:#ff79c6">blocks</span>:
+  - <span style="color:#ff79c6">name</span>: <span style="color:#f1fa8c">&#34;Test&#34;</span>
+    <span style="color:#ff79c6">task</span>:
+      <span style="color:#ff79c6">prologue</span>:
+        <span style="color:#ff79c6">commands</span>:
+          <span style="color:#6272a4"># set go version</span>
+          - sem-version go <span style="color:#bd93f9">1.11</span>
+          - <span style="color:#f1fa8c">&#34;export GOPATH=~/go&#34;</span>
+          - <span style="color:#f1fa8c">&#34;export PATH=/home/semaphore/go/bin:$PATH&#34;</span>
+          - checkout
+
+      <span style="color:#ff79c6">jobs</span>:
+        - <span style="color:#ff79c6">name</span>: <span style="color:#f1fa8c">&#34;Lint&#34;</span>
+          <span style="color:#ff79c6">commands</span>:
+            - go get ./...
+            - go test ./...
+
+<span style="color:#6272a4"># On Semaphore 2.0 deployment and delivery is managed with promotions,</span>
+<span style="color:#6272a4"># which may be automatic or manual and optionally depend on conditions.</span>
+<span style="color:#ff79c6">promotions</span>:
+    - <span style="color:#ff79c6">name</span>: Release
+       <span style="color:#ff79c6">pipeline_file</span>: goreleaser.yml
+       <span style="color:#ff79c6">auto_promote_on</span>:
+         - <span style="color:#ff79c6">result</span>: passed
+           <span style="color:#ff79c6">branch</span>:
+             - <span style="color:#f1fa8c">&#34;^refs/tags/v*&#34;</span>
+</code></pre></div><p>Pipeline file in <code>.semaphore/goreleaser.yml</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#ff79c6">version</span>: <span style="color:#f1fa8c">&#34;v1.0&#34;</span>
+<span style="color:#ff79c6">name</span>: GoReleaser
+<span style="color:#ff79c6">agent</span>:
+  <span style="color:#ff79c6">machine</span>:
+    <span style="color:#ff79c6">type</span>: e1-standard<span style="color:#bd93f9">-2</span>
+    <span style="color:#ff79c6">os_image</span>: ubuntu1804
+<span style="color:#ff79c6">blocks</span>:
+  - <span style="color:#ff79c6">name</span>: <span style="color:#f1fa8c">&#34;Release&#34;</span>
+    <span style="color:#ff79c6">task</span>:
+      <span style="color:#ff79c6">secrets</span>:
+        - <span style="color:#ff79c6">name</span>: goreleaser
+      <span style="color:#ff79c6">prologue</span>:
+        <span style="color:#ff79c6">commands</span>:
+          - sem-version go <span style="color:#bd93f9">1.11</span>
+          - <span style="color:#f1fa8c">&#34;export GOPATH=~/go&#34;</span>
+          - <span style="color:#f1fa8c">&#34;export PATH=/home/semaphore/go/bin:$PATH&#34;</span>
+          - checkout
+      <span style="color:#ff79c6">jobs</span>:
+      - <span style="color:#ff79c6">name</span>: goreleaser
+        <span style="color:#ff79c6">commands</span>:
+          - curl -sL https://git.io/goreleaser | bash
+</code></pre></div><p>The following YAML file, <code>createSecret.yml</code> creates a new secret item that is
+called GoReleaser with one environment variable, named <code>GITHUB_TOKEN</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#ff79c6">apiVersion</span>: v1alpha
+<span style="color:#ff79c6">kind</span>: Secret
+<span style="color:#ff79c6">metadata</span>:
+  <span style="color:#ff79c6">name</span>: goreleaser
+<span style="color:#ff79c6">data</span>:
+  <span style="color:#ff79c6">env_vars</span>:
+    - <span style="color:#ff79c6">name</span>: GITHUB_TOKEN
+      <span style="color:#ff79c6">value</span>: <span style="color:#f1fa8c">&#34;4afk4388304hfhei34950dg43245&#34;</span>
+</code></pre></div><p>Check <a href="https://docs.semaphoreci.com/article/51-secrets-yaml-reference">Managing Secrets</a>
+for more detailed documentation.</p>
+<h2 id="gitlab-ci">GitLab CI</h2>
+<p>To create GitLab releases and push images to a Docker registry, add a file
+<code>.gitlab-ci.yml</code> to the root of the project:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ff79c6">stages</span>:
+  - release
+
+<span style="color:#ff79c6">release</span>:
+  <span style="color:#ff79c6">stage</span>: release
+  <span style="color:#ff79c6">image</span>: docker:stable
+  <span style="color:#ff79c6">services</span>:
+    - docker:dind
+
+  <span style="color:#ff79c6">variables</span>:
+    <span style="color:#ff79c6">GORELEASER_IMAGE</span>: goreleaser/goreleaser:latest
+
+    <span style="color:#6272a4"># Optionally use GitLab&#39;s built-in image registry.</span>
+    <span style="color:#6272a4"># DOCKER_REGISTRY: $CI_REGISTRY</span>
+    <span style="color:#6272a4"># DOCKER_USERNAME: $CI_REGISTRY_USER</span>
+    <span style="color:#6272a4"># DOCKER_PASSWORD: $CI_REGISTRY_PASSWORD</span>
+
+    <span style="color:#6272a4"># Or, use any registry, including the official one.</span>
+    <span style="color:#ff79c6">DOCKER_REGISTRY</span>: https://index.docker.io/v1/
+
+    <span style="color:#6272a4"># Disable shallow cloning so that goreleaser can diff between tags to</span>
+    <span style="color:#6272a4"># generate a changelog.</span>
+    <span style="color:#ff79c6">GIT_DEPTH</span>: <span style="color:#bd93f9">0</span>
+
+  <span style="color:#6272a4"># Only run this release job for tags, not every commit (for example).</span>
+  <span style="color:#ff79c6">only</span>:
+    <span style="color:#ff79c6">refs</span>:
+      - tags
+
+  <span style="color:#ff79c6">script</span>: <span style="color:#f1fa8c">|
+</span><span style="color:#f1fa8c">   </span><span style="color:#f1fa8c"> </span><span style="color:#f1fa8c">docker pull $GORELEASER_IMAGE</span>
+
+    <span style="color:#6272a4"># GITLAB_TOKEN is needed to create GitLab releases.</span>
+    <span style="color:#6272a4"># DOCKER_* are needed to push Docker images.</span>
+    docker run --pull --rm --privileged \
+      -v $PWD:/go/src/gitlab.com/YourGitLabUser/YourGitLabRepo \
+      -w /go/src/gitlab.com/YourGitLabUser/YourGitLabRepo \
+      -v /var/run/docker.sock:/var/run/docker.sock \
+      -e DOCKER_USERNAME -e DOCKER_PASSWORD -e DOCKER_REGISTRY  \
+      -e GITLAB_TOKEN \
+      $GORELEASER_IMAGE release --rm-dist
+</code></pre></div><p>In GitLab CI settings, add variables for <code>DOCKER_REGISTRY</code>, <code>DOCKER_USERNAME</code>,
+and <code>DOCKER_PASSWORD</code> if you aren&rsquo;t using the GitLab image registry. If you are
+using the GitLab image registry, you don&rsquo;t need to set these.</p>
+<p>Add a variable <code>GITLAB_TOKEN</code> if you are using <a href="https://docs.gitlab.com/ce/user/project/releases/">GitLab
+releases</a>. The value should
+be an API token with <code>api</code> scope for a user that has access to the project.</p>
+<p>The secret variables, <code>DOCKER_PASSWORD</code> and <code>GITLAB_TOKEN</code>, should be masked.
+Optionally, you might want to protect them if the job that uses them will only
+be run on protected branches or tags.</p>
+<p>Make sure the <code>image_templates</code> in the file <code>.goreleaser.yml</code> reflect that
+custom registry!</p>
+<p>Example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ff79c6">dockers</span>:
+<span style="color:#f1fa8c">-
+</span><span style="color:#f1fa8c"> </span><span style="color:#f1fa8c"> </span><span style="color:#f1fa8c">goos: linux</span>
+  <span style="color:#ff79c6">goarch</span>: amd64
+  <span style="color:#ff79c6">binaries</span>:
+  - program
+  <span style="color:#ff79c6">image_templates</span>:
+  - <span style="color:#f1fa8c">&#39;registry.gitlab.com/Group/Project:{{ .Tag }}&#39;</span>
+  - <span style="color:#f1fa8c">&#39;registry.gitlab.com/Group/Project:latest&#39;</span>
+</code></pre></div><h2 id="codefresh">Codefresh</h2>
+<p>Codefresh uses Docker based pipelines where all steps must be Docker containers.
+Using GoReleaser is very easy via the
+<a href="https://hub.docker.com/r/goreleaser/goreleaser/">existing Docker image</a>.</p>
+<p>Here is an example pipeline that builds a Go application and then uses
+GoReleaser.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ff79c6">version</span>: <span style="color:#f1fa8c">&#39;1.0&#39;</span>
+<span style="color:#ff79c6">stages</span>:
+  - prepare
+  - build
+  - release
+<span style="color:#ff79c6">steps</span>:
+  <span style="color:#ff79c6">main_clone</span>:
+    <span style="color:#ff79c6">title</span>: <span style="color:#f1fa8c">&#39;Cloning main repository...&#39;</span>
+    <span style="color:#ff79c6">type</span>: git-clone
+    <span style="color:#ff79c6">repo</span>: <span style="color:#f1fa8c">&#39;${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}&#39;</span>
+    <span style="color:#ff79c6">revision</span>: <span style="color:#f1fa8c">&#39;${{CF_REVISION}}&#39;</span>
+    <span style="color:#ff79c6">stage</span>: prepare
+  <span style="color:#ff79c6">BuildMyApp</span>:
+    <span style="color:#ff79c6">title</span>: Compiling go code
+    <span style="color:#ff79c6">stage</span>: build
+    <span style="color:#ff79c6">image</span>: <span style="color:#f1fa8c">&#39;golang:1.14&#39;</span>
+    <span style="color:#ff79c6">commands</span>:
+      - go build
+  <span style="color:#ff79c6">ReleaseMyApp</span>:
+    <span style="color:#ff79c6">title</span>: Creating packages
+    <span style="color:#ff79c6">stage</span>: release
+    <span style="color:#ff79c6">image</span>: <span style="color:#f1fa8c">&#39;goreleaser/goreleaser&#39;</span>
+    <span style="color:#ff79c6">commands</span>:
+      - goreleaser --rm-dist
+</code></pre></div><p>You need to pass the variable <code>GITHUB_TOKEN</code> in the Codefresh UI that
+contains credentials to your Github account or load it from
+<a href="https://codefresh.io/docs/docs/configure-ci-cd-pipeline/shared-configuration/">shared configuration</a>.
+You should also restrict this pipeline to run only on tags when you add
+<a href="https://codefresh.io/docs/docs/configure-ci-cd-pipeline/triggers/git-triggers/">git triggers</a>
+on it.</p>
+<p>More details can be found in the
+<a href="https://codefresh.io/docs/docs/learn-by-example/golang/goreleaser/">GoReleaser example page</a>.</p>
+
+			</div>
+		
+	
+		
+	
+		
+			<div class="Page" id="GitHub Actions">
+				<h1><a href="https://goreleaser.com/actions/">GitHub Actions</a></h1>
+				<p>GoReleaser can also be used within our official <a href="https://github.com/goreleaser/goreleaser-action">GoReleaser Action</a>
+through <a href="https://github.com/features/actions">GitHub Actions</a>.</p>
+<p>You can create a workflow for pushing your releases by putting YAML configuration to
+<code>.github/workflows/release.yml</code>.</p>
+<h2 id="usage">Usage</h2>
+<h3 id="workflow">Workflow</h3>
+<p>Below is a simple snippet to use this action in your workflow:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ff79c6">name</span>: goreleaser
+
+<span style="color:#ff79c6">on</span>:
+  <span style="color:#ff79c6">pull_request</span>:
+  <span style="color:#ff79c6">push</span>:
+
+<span style="color:#ff79c6">jobs</span>:
+  <span style="color:#ff79c6">goreleaser</span>:
+    <span style="color:#ff79c6">runs-on</span>: ubuntu-latest
+    <span style="color:#ff79c6">steps</span>:
+      <span style="color:#f1fa8c">-
+</span><span style="color:#f1fa8c">       </span><span style="color:#f1fa8c"> </span><span style="color:#f1fa8c">name: Checkout</span>
+        <span style="color:#ff79c6">uses</span>: actions/checkout@v2
+      <span style="color:#f1fa8c">-
+</span><span style="color:#f1fa8c">       </span><span style="color:#f1fa8c"> </span><span style="color:#f1fa8c">name: Unshallow</span>
+        <span style="color:#ff79c6">run</span>: git fetch --prune --unshallow
+      <span style="color:#f1fa8c">-
+</span><span style="color:#f1fa8c">       </span><span style="color:#f1fa8c"> </span><span style="color:#f1fa8c">name: Set up Go</span>
+        <span style="color:#ff79c6">uses</span>: actions/setup-go@v2
+        <span style="color:#ff79c6">with</span>:
+          <span style="color:#ff79c6">go-version</span>: <span style="color:#bd93f9">1.14</span>
+      <span style="color:#f1fa8c">-
+</span><span style="color:#f1fa8c">       </span><span style="color:#f1fa8c"> </span><span style="color:#f1fa8c">name: Run GoReleaser</span>
+        <span style="color:#ff79c6">uses</span>: goreleaser/goreleaser-action@v2
+        <span style="color:#ff79c6">with</span>:
+          <span style="color:#ff79c6">version</span>: latest
+          <span style="color:#ff79c6">args</span>: release --rm-dist
+        <span style="color:#ff79c6">env</span>:
+          <span style="color:#ff79c6">GITHUB_TOKEN</span>: ${{ secrets.GITHUB_TOKEN }}
+</code></pre></div><blockquote>
+<p><strong>IMPORTANT</strong>: note the <code>Unshallow</code> workflow step. It is required for the
+changelog to work correctly.</p>
+</blockquote>
+<h3 id="run-on-new-tag">Run on new tag</h3>
+<p>If you want to run GoReleaser only on new tag, you can use this event:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ff79c6">on</span>:
+  <span style="color:#ff79c6">push</span>:
+    <span style="color:#ff79c6">tags</span>:
+      - <span style="color:#f1fa8c">&#39;*&#39;</span>
+</code></pre></div><p>Or with a condition on GoReleaser step:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">      <span style="color:#f1fa8c">-
+</span><span style="color:#f1fa8c">       </span><span style="color:#f1fa8c"> </span><span style="color:#f1fa8c">name: Run GoReleaser</span>
+        <span style="color:#ff79c6">uses</span>: goreleaser/goreleaser-action@v2
+        <span style="color:#ff79c6">if</span>: startsWith(github.ref, <span style="color:#f1fa8c">&#39;refs/tags/&#39;</span>)
+        <span style="color:#ff79c6">with</span>:
+          <span style="color:#ff79c6">version</span>: latest
+          <span style="color:#ff79c6">args</span>: release --rm-dist
+        <span style="color:#ff79c6">env</span>:
+          <span style="color:#ff79c6">GITHUB_TOKEN</span>: ${{ secrets.GITHUB_TOKEN }}
+</code></pre></div><blockquote>
+<p>For detailed instructions please follow GitHub Actions <a href="https://help.github.com/en/articles/workflow-syntax-for-github-actions#About-yaml-syntax-for-workflows">workflow syntax</a>.</p>
+</blockquote>
+<h3 id="signing">Signing</h3>
+<p>If <a href="https://goreleaser.com/customization/#Signing">signing is enabled</a> in your GoReleaser configuration, you can use the <a href="https://github.com/crazy-max/ghaction-import-gpg">Import GPG</a>
+GitHub Action along with this one:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">      <span style="color:#f1fa8c">-
+</span><span style="color:#f1fa8c">       </span><span style="color:#f1fa8c"> </span><span style="color:#f1fa8c">name: Import GPG key</span>
+        <span style="color:#ff79c6">id</span>: import_gpg
+        <span style="color:#ff79c6">uses</span>: crazy-max/ghaction-import-gpg@v1
+        <span style="color:#ff79c6">env</span>:
+          <span style="color:#ff79c6">GPG_PRIVATE_KEY</span>: ${{ secrets.GPG_PRIVATE_KEY }}
+          <span style="color:#ff79c6">PASSPHRASE</span>: ${{ secrets.PASSPHRASE }}
+      <span style="color:#f1fa8c">-
+</span><span style="color:#f1fa8c">       </span><span style="color:#f1fa8c"> </span><span style="color:#f1fa8c">name: Run GoReleaser</span>
+        <span style="color:#ff79c6">uses</span>: goreleaser/goreleaser-action@v2
+        <span style="color:#ff79c6">with</span>:
+          <span style="color:#ff79c6">version</span>: latest
+          <span style="color:#ff79c6">args</span>: release --rm-dist
+        <span style="color:#ff79c6">env</span>:
+          <span style="color:#ff79c6">GITHUB_TOKEN</span>: ${{ secrets.GITHUB_TOKEN }}
+          <span style="color:#ff79c6">GPG_FINGERPRINT</span>: ${{ steps.import_gpg.outputs.fingerprint }}
+</code></pre></div><p>And reference the fingerprint in your signing configuration using the <code>GPG_FINGERPRINT</code> environment variable:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ff79c6">signs</span>:
+  - <span style="color:#ff79c6">artifacts</span>: checksum
+    <span style="color:#ff79c6">args</span>: [<span style="color:#f1fa8c">&#34;--batch&#34;</span>, <span style="color:#f1fa8c">&#34;-u&#34;</span>, <span style="color:#f1fa8c">&#34;{{ .Env.GPG_FINGERPRINT }}&#34;</span>, <span style="color:#f1fa8c">&#34;--output&#34;</span>, <span style="color:#f1fa8c">&#34;${signature}&#34;</span>, <span style="color:#f1fa8c">&#34;--detach-sign&#34;</span>, <span style="color:#f1fa8c">&#34;${artifact}&#34;</span>]
+</code></pre></div><h2 id="customizing">Customizing</h2>
+<h3 id="inputs">inputs</h3>
+<p>Following inputs can be used as <code>step.with</code> keys</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>version</code></td>
+<td>String</td>
+<td><code>latest</code></td>
+<td>GoReleaser version. Example: <code>v0.117.0</code></td>
+</tr>
+<tr>
+<td><code>args</code></td>
+<td>String</td>
+<td></td>
+<td>Arguments to pass to GoReleaser</td>
+</tr>
+<tr>
+<td><code>workdir</code></td>
+<td>String</td>
+<td><code>.</code></td>
+<td>Working directory (below repository root)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="environment-variables">environment variables</h3>
+<p>Following environment variables can be used as <code>step.env</code> keys</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>GITHUB_TOKEN</code></td>
+<td><a href="https://help.github.com/en/actions/configuring-and-managing-workflows/authenticating-with-the-github_token">GITHUB_TOKEN</a> as provided by <code>secrets</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="limitation">Limitation</h2>
+<p><code>GITHUB_TOKEN</code> permissions <a href="https://help.github.com/en/actions/configuring-and-managing-workflows/authenticating-with-the-github_token#about-the-github_token-secret">are limited to the repository</a> that contains your workflow.</p>
+<p>If you need to push the homebrew tap to another repository, you must therefore create a custom
+<a href="https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/">Personal Access Token</a> with <code>repo</code> permissions and <a href="https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets">add it as a secret in the repository</a>. If you
+create a secret named <code>GH_PAT</code>, the step will look like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">      <span style="color:#f1fa8c">-
+</span><span style="color:#f1fa8c">       </span><span style="color:#f1fa8c"> </span><span style="color:#f1fa8c">name: Run GoReleaser</span>
+        <span style="color:#ff79c6">uses</span>: goreleaser/goreleaser-action@v2
+        <span style="color:#ff79c6">with</span>:
+          <span style="color:#ff79c6">version</span>: latest
+          <span style="color:#ff79c6">args</span>: release --rm-dist
+        <span style="color:#ff79c6">env</span>:
+          <span style="color:#ff79c6">GITHUB_TOKEN</span>: ${{ secrets.GH_PAT }}
+</code></pre></div>
+			</div>
+		
+	
+		
+	
+		
+			<div class="Page" id="Sponsors">
+				<h1><a href="https://goreleaser.com/sponsors/">Sponsors</a></h1>
+				<p>Does your company use goreleaser? Help keep the project bug-free and feature rich by <a href="https://opencollective.com/goreleaser#sponsor">sponsoring the project</a>.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 id="backers">Backers</h2>
+<p>Love our work and community? <a href="https://opencollective.com/goreleaser">Become a backer</a>.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+			</div>
+		
+	
+		
+			<div class="Page" id="Contributing">
+				<h1><a href="https://goreleaser.com/contributing/">Contributing</a></h1>
+				<p>This page will eventually have information for those who want to contribute
+to the project.</p>
+<p>Also check the <a href="https://github.com/goreleaser/goreleaser/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a>
+file on the root of our repository.</p>
+
+			</div>
+		
+	
+		
+			<div class="Page" id="Tutorials and posts">
+				<h1><a href="https://goreleaser.com/tutorials/">Tutorials and posts</a></h1>
+				<p>Tutorials made by the community.</p>
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="https://carlosbecker.com/posts/nfpm/">Creating debs and rpms with Go</a></li>
+<li><a href="https://carlosbecker.com/posts/goreleaser/">Fast and easy Go binaries delivery</a></li>
+<li><a href="https://carlosbecker.com/posts/goreleaser-docker/">GoReleaser Docker Support</a></li>
+<li><a href="https://carlosbecker.com/posts/goreleaser-snap-travis/">GoReleaser: build and push Snapcraft packages from TravisCI</a></li>
+<li><a href="https://medium.com/@stepanvrany/painless-github-releases-with-drone-and-goreleaser-853bbbccd0c0">Painless Github releases with Drone and GoReleaser</a></li>
+<li><a href="https://medium.com/@jondot/shipping-rust-binaries-with-goreleaser-d5aa42a46be0">Shipping Rust Binaries with GoReleaser</a></li>
+<li><a href="https://medium.com/@robdefeo/cross-compile-with-cgo-and-goreleaser-6af884731222?source=friends_link&amp;sk=baf6553fa48cb0e28ea3519615f02576">Cross compile with CGO and GoReleaser</a></li>
+<li><a href="https://medium.com/@fallion/goreleaser-drone-github-tutorial-9a150103cac0">GoReleaser + Drone + Github: Tutorial</a></li>
+<li><a href="https://blog.toshima.ru/2019/10/20/go-release-automation-with-goreleaser.html">Go Release Automation with goreleaser + GitHub Actions</a></li>
+</ul>
+<p>Want to add your tutorial here? Please do! Click on the <code>improve this page</code>
+link bellow!</p>
+
+			</div>
+		
+	
+		
+			<div class="Page" id="Links">
+				<h1><a href="https://goreleaser.com/links/">Links</a></h1>
+				<ul>
+<li>Follow the progress on the <a href="https://github.com/goreleaser/goreleaser">GitHub repository</a></li>
+<li>Follow <a href="https://twitter.com/goreleaser">@goreleaser</a> on Twitter for updates</li>
+<li>Ask questions on <a href="https://stackoverflow.com/questions/tagged/goreleaser">StackOverflow</a></li>
+<li>For questions, support and general discussion, please use
+<a href="https://github.com/goreleaser/goreleaser/discussions">GitHub Discussions</a>;</li>
+<li><a href="https://github.com/goreleaser/goreleaser/blob/master/CONTRIBUTING.md">Contributing Guidelines</a></li>
+</ul>
+<p>This project adheres to the Contributor Covenant
+<a href="https://github.com/goreleaser/goreleaser/blob/master/CODE_OF_CONDUCT.md">code of conduct</a>.
+By participating, you are expected to uphold this code.</p>
+
+			</div>
+		
+	
+
+						<div class="Footer">
+	<p>Made with ❤️ by GoReleaser contributors.</p>
+</div>
+<script src="https://goreleaser.com/js/index.js"></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-106198408-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+					</div>
+				</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://goreleaser.com/introduction/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/install/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/project/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/quick-start/</loc>
+    <lastmod>2020-04-22T22:59:29-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/semver/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/cgo/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/env/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/environment/</loc>
+    <lastmod>2020-04-21T13:18:45-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/hooks/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/templates/</loc>
+    <lastmod>2020-05-10T17:03:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/build/</loc>
+    <lastmod>2020-04-12T16:13:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/customization/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/archive/</loc>
+    <lastmod>2020-05-10T12:50:07-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/source/</loc>
+    <lastmod>2020-04-12T11:47:46-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/checksum/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/sign/</loc>
+    <lastmod>2020-05-10T12:50:35-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/snapshots/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/nfpm/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/snapcraft/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/homebrew/</loc>
+    <lastmod>2020-04-05T02:02:06+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/scoop/</loc>
+    <lastmod>2020-05-06T13:58:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/release/</loc>
+    <lastmod>2020-04-21T13:21:04-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/blob/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/artifactory/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/bintray/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/upload/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/publishers/</loc>
+    <lastmod>2020-05-10T17:03:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/ci/</loc>
+    <lastmod>2020-04-12T14:31:35-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/docker/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/actions/</loc>
+    <lastmod>2020-05-10T18:16:17+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/deprecations/</loc>
+    <lastmod>2020-04-19T19:54:07-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/sponsors/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/contributing/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/tutorials/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/links/</loc>
+    <lastmod>2020-03-31T10:16:37-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/</loc>
+    <lastmod>2020-05-10T18:16:17+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goreleaser.com/tags/</loc>
+  </url>
+  
+</urlset>
